@@ -26,6 +26,7 @@ public class Exe3_NumerosAleatorios {
         for (int numero : numerosaleatorios) {
             System.out.print((numero +1) + " ");
         }
+        System.out.println("\n");
 
     }
 }
