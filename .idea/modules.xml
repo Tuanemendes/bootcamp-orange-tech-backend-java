@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafios.iml" filepath="$PROJECT_DIR$/desafios/desafios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/estruturas-de-repeticao-e-arrays-em-java.iml" filepath="$PROJECT_DIR$/.idea/estruturas-de-repeticao-e-arrays-em-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loops-e-arrays/loops-e-arrays.iml" filepath="$PROJECT_DIR$/loops-e-arrays/loops-e-arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metodos-java/metodos-java.iml" filepath="$PROJECT_DIR$/metodos-java/metodos-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientacao-objeto/orientacao-objeto.iml" filepath="$PROJECT_DIR$/orientacao-objeto/orientacao-objeto.iml" />
+    </modules>
+  </component>
+</project>
