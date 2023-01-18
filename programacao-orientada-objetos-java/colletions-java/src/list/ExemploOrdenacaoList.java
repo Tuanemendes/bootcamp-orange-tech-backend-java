@@ -1,6 +1,5 @@
 package list;
 
-import java.net.Inet4Address;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

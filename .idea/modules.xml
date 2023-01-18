@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/colletions-java/colletions-java.iml" filepath="$PROJECT_DIR$/colletions-java/colletions-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programacao-orientada-objetos-java/colletions-java/colletions-java.iml" filepath="$PROJECT_DIR$/programacao-orientada-objetos-java/colletions-java/colletions-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafios/desafios.iml" filepath="$PROJECT_DIR$/desafios/desafios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafios-java-basico/desafios-java-basico.iml" filepath="$PROJECT_DIR$/desafios/desafios-java-basico/desafios-java-basico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafios-java-intermediario/desafios-java-intermediario.iml" filepath="$PROJECT_DIR$/desafios/desafios-java-intermediario/desafios-java-intermediario.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/estruturas-de-repeticao-e-arrays-em-java.iml" filepath="$PROJECT_DIR$/.idea/estruturas-de-repeticao-e-arrays-em-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loops-e-arrays/loops-e-arrays.iml" filepath="$PROJECT_DIR$/loops-e-arrays/loops-e-arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estruturas-de-repeticao-java/estruturas-de-repeticao-java.iml" filepath="$PROJECT_DIR$/estruturas-de-repeticao-java/estruturas-de-repeticao-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estruturas-de-repeticao-java/loops-e-arrays/loops-e-arrays.iml" filepath="$PROJECT_DIR$/estruturas-de-repeticao-java/loops-e-arrays/loops-e-arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/metodos-java/metodos-java.iml" filepath="$PROJECT_DIR$/metodos-java/metodos-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/orientacao-objeto/orientacao-objeto.iml" filepath="$PROJECT_DIR$/orientacao-objeto/orientacao-objeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programacao-orientada-objetos-java/orientacao-objeto/orientacao-objeto.iml" filepath="$PROJECT_DIR$/programacao-orientada-objetos-java/orientacao-objeto/orientacao-objeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programacao-orientada-objetos-java/programacao-orientada-objetos-java.iml" filepath="$PROJECT_DIR$/programacao-orientada-objetos-java/programacao-orientada-objetos-java.iml" />
     </modules>
   </component>
 </project>
