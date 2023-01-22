@@ -60,14 +60,55 @@ public class ExemploMap {
 
         System.out.println("Exiba o modelo menos ecônomico e sua consumo : ");
 
+        Double consumoMenosEficiente =  Collections.min(carros.values());
+        String modeloMenosEficiente = "";
+        for (Map.Entry<String, Double> entry: carros.entrySet()) {
+            if(entry.getValue().equals(consumoMenosEficiente)){
+                modeloMenosEficiente = entry.getKey();
+                System.out.println("Modelo meno eficiente "+ modeloMenosEficiente + " - "
+                        + consumoMenosEficiente);
+            }
+        }
 
 
+        Iterator<Double> iterator = carros.values().iterator();
+        Double soma = 0d;
+        while (iterator.hasNext()){
+            soma += iterator.next();
+        }
+        System.out.println("Exiba a soma dos consumos: " + soma);
 
+        System.out.println("Exiba a média dos consumos deste dicionario de carros: "+ (soma/carros.size()));
 
+        System.out.println("Os modelos com o consumo igual a 15,6km/l: "  + carros);
+        //remove o elemento 15.6
+        Iterator<Double> iterator1 = carros.values().iterator();
+        while (iterator1.hasNext()){
+            if(iterator1.next().equals(15.6)){
+                iterator1.remove();
+            }
+        }
+        System.out.println("Remova os modelos com o consumo igual a 15,6km/l: "  + carros);
 
+        System.out.println("Exiba todos os carros na ordem em que foram informados: " );
+        Map<String,Double> carros1 = new LinkedHashMap<>(){{
+            put("Gol",14.4);
+            put("Uno",15.6);
+            put("Mobi",16.1);
+            put("Hb20",14.5);
+            put("Kwid",15.6);
+        }};
+        System.out.println(carros1.toString());
+        //ordena em ordem alfabetica
+        System.out.println("Exiba o dicionario ordenado pelo modelo:");
+        Map<String,Double> carros2  = new TreeMap<>(carros1);
+        System.out.println(carros2.toString());
 
+        System.out.println("Apague o conjunto de carros: ");
+        carros2.clear();
+        System.out.println(carros2);
 
-
+        System.out.println("Confira se  o dicionario está vazia: "+ carros2.isEmpty());
 
     }
 }
