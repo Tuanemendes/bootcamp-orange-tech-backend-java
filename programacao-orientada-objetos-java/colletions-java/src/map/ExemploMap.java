@@ -65,7 +65,7 @@ public class ExemploMap {
         for (Map.Entry<String, Double> entry: carros.entrySet()) {
             if(entry.getValue().equals(consumoMenosEficiente)){
                 modeloMenosEficiente = entry.getKey();
-                System.out.println("Modelo meno eficiente "+ modeloMenosEficiente + " - "
+                System.out.println("Modelo menos eficiente "+ modeloMenosEficiente + " - "
                         + consumoMenosEficiente);
             }
         }
