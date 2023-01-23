@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/programacao-orientada-objetos-java/colletions-java/colletions-java.iml" filepath="$PROJECT_DIR$/programacao-orientada-objetos-java/colletions-java/colletions-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debugging-java/debugging-java.iml" filepath="$PROJECT_DIR$/debugging-java/debugging-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafios/desafios.iml" filepath="$PROJECT_DIR$/desafios/desafios.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafios/desafios-java-basico/desafios-java-basico.iml" filepath="$PROJECT_DIR$/desafios/desafios-java-basico/desafios-java-basico.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafios/desafios-java-intermediario/desafios-java-intermediario.iml" filepath="$PROJECT_DIR$/desafios/desafios-java-intermediario/desafios-java-intermediario.iml" />
