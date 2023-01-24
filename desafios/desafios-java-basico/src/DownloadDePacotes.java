@@ -5,7 +5,6 @@ public class DownloadDePacotes {
         Scanner leitor = new Scanner(System.in);
         int tamanho = leitor.nextInt();
          for(int i = 0; i < tamanho; i++){
-             int quantidade = tamanho * 1;
              System.out.print("/");
          }
     }
