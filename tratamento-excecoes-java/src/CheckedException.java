@@ -3,7 +3,7 @@ import java.io.*;
 
 public class CheckedException {
     public static void main(String[] args)  {
-        String nomeDoArquivo = "arrquivo.txt";
+        String nomeDoArquivo = "arquivo.txt";
         try {
             imprimirArquivoNoConsole(nomeDoArquivo);
         }catch (FileNotFoundException e){
@@ -34,6 +34,7 @@ public class CheckedException {
         bufferedWriter.flush();
         bufferedReader.close();
     }
+
 
 
 }
