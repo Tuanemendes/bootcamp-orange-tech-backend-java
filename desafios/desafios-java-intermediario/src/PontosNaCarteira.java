@@ -7,11 +7,17 @@ public class PontosNaCarteira {
             int velocidade = leitor.nextInt();
             int multas = leitor.nextInt();
 
-            if(velocidade>80){
-                multas ++;
+            if(velocidade>80) {multas++;}
+            if (multas > 2) {
+                System.out.printf("%d multas.Levou pontos na carteira", multas);
+            } else {
+                System.out.printf("%d multas.Nao levou pontos na carteira",multas);
             }
-            System.out.printf( multas >= 2 ? multas + " multas. Levou pontos na carteira"
-                    :multas + " multas. Nao levou pontos na carteira") ;
+
+
+
+           /* System.out.printf( multas >= 2 ? multas + " multas. Levou pontos na carteira"
+                    :multas + " multas. Nao levou pontos na carteira") ;*/
 
         }
 
